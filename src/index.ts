@@ -37,7 +37,7 @@ app.get("/ping", async (req: Request, res: Response) => {
   }
 });
 
-const hashManager = new HashManager();
-hashManager.hash("lidia123").then((res) => {
-  console.log(res);
-});
+// const hashManager = new HashManager();
+// hashManager.hash("lidia123").then((res) => {
+//   console.log(res);
+// });
