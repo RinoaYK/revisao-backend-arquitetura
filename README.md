@@ -1,6 +1,7 @@
 # Revisão Backend Arquitetura
 
 Este é um projeto que aborda o material de revisão de backend. <br>
+
 Envolve o desenvolvimento de uma API que permite que usuários se cadastrem e façam login, além de acessarem as funcionalidades CRUD das playlists. Os usuários podem criar, visualizar, atualizar e excluir suas próprias playlists, e também podem dar like e deslike em playlists de outros usuários.
 
 A autenticação é feita por meio de tokens JWT, garantindo a segurança das informações e das operações realizadas pelos usuários.
