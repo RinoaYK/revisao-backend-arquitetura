@@ -22,13 +22,19 @@ export class UserBusiness {
 
     const hashedPassword = await this.hashManager.hash(password);
 
+    const now = new Date();
+    const formattedDate = now
+      .toLocaleString()
+      .replace("/", "-")
+      .replace("/", "-");
+
     const user = new User(
       id,
       name,
       email,
       hashedPassword,
       USER_ROLES.NORMAL,
-      new Date().toISOString()
+      formattedDate
     );
 
     const userDB = user.toDBModel();
